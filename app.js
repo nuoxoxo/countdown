@@ -43,7 +43,7 @@ interval = setInterval(function() {
   if (diff < 0) {
 
     clearInterval(interval)
-    document.getElementById('div-counter').innerHTML = "Let's end it here. \n"
+    document.getElementById('div-counter').innerHTML = `<h4 class="arrived">Let's end it here.</h4>`;
 
   }
 
